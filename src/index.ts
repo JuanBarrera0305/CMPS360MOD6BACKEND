@@ -13,9 +13,9 @@ app.use('/api', universityRoutes);
 
 // Root route
 app.get('/', (req, res) => {
-    res.send(`API is running on port ${PORT}`);
+  res.send(`API is running on port ${PORT}`);
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
